@@ -1,0 +1,38 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+nav ul a {
+  color: #212121;
+}
+body > div.navbar-fixed > nav > div > ul {
+  margin-left: 100px;
+}
+img.logo-mini{
+  -webkit-filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.5));
+}
+.nav-wrapper {
+  overflow: hidden;
+}
+.logo-mini {
+  height: 2.2em;
+  width: auto;
+}
+.ns {
+  display: none;
+}
+.social {
+  margin-right: 2px;
+  margin-top: 1em;
+  height: 2em;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+.social:hover {
+  box-shadow: 0 0 8px rgba(0, 175, 255, 0.8);
+}
+footer.page-footer {
+  margin: 0;
+}
